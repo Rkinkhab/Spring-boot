@@ -1,0 +1,8 @@
+2020-03-14T09:42:46.255-04:00 INFO  [main] justiceleague-tracker JusticeLeagueTrackerApplication: Starting JusticeLeagueTrackerApplication on Rajats-MacBook-Pro.local with PID 44751 (/Users/rajatkinkhabwala/Downloads/justicealeague-tracker/target/classes started by rajatkinkhabwala in /Users/rajatkinkhabwala/Downloads/justicealeague-tracker)
+2020-03-14T09:42:46.257-04:00 INFO  [main] justiceleague-tracker JusticeLeagueTrackerApplication: The following profiles are active: dev
+2020-03-14T09:42:47.554-04:00 INFO  [main] justiceleague-tracker JusticeLeagueTrackerApplication: Started JusticeLeagueTrackerApplication in 1.69 seconds (JVM running for 2.342)
+2020-03-14T09:45:58.180-04:00 INFO  [main] justiceleague-tracker JusticeLeagueTrackerApplication: Starting JusticeLeagueTrackerApplication on Rajats-MacBook-Pro.local with PID 44779 (/Users/rajatkinkhabwala/Downloads/justicealeague-tracker/target/classes started by rajatkinkhabwala in /Users/rajatkinkhabwala/Downloads/justicealeague-tracker)
+2020-03-14T09:45:58.182-04:00 INFO  [main] justiceleague-tracker JusticeLeagueTrackerApplication: The following profiles are active: dev
+2020-03-14T09:45:59.249-04:00 INFO  [main] justiceleague-tracker JusticeLeagueTrackerApplication: Started JusticeLeagueTrackerApplication in 1.407 seconds (JVM running for 2.044)
+2020-03-14T09:47:05.882-04:00 INFO  [http-nio-8080-exec-3] justiceleague-tracker JusticeLeagueTrackerController: Received a request to retrive the justice league
+2020-03-14T09:47:05.884-04:00 INFO  [http-nio-8080-exec-3] justiceleague-tracker JusticeLeagueService: Received a request to get all the justice league members
