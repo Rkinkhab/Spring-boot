@@ -4,8 +4,6 @@ phases:
   build:
     commands:
     - echo building the justiceleague-tracker
-    - export M2_HOME=/usr/lib/apache-maven-3.6.3
-    - export PATH=$PATH:$M2_HOME/bin
     - mvn install
 artifacts:
   files:
