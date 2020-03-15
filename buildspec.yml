@@ -2,14 +2,16 @@ version: 0.2
 
 env:
   variables:
-    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
+    JAVA_HOME: "/usr/lib/jvm/java-7-openjdk-amd64"
 
 phases:
   install:
     commands:
     - echo installing maven...
-    - apt-get update -y
-    - apt-get install -y maven
+    - sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+    - sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+    - sudo yum install -y apache-maven
+    - echo mvn –version
   build:
     commands:
     - echo building the justiceleague-tracker
