@@ -1,18 +1,19 @@
 version: 0.2
 
 phases:
-  install:
+ install:
     runtime-versions:
-      java: corretto8
+      java: corretto11
+  pre_build:
     commands:
-    - echo installing maven...
-    - apt-get update -y
-    - apt-get install -y maven
+      - echo Nothing to do in the pre_build phase...
   build:
     commands:
-    - echo building the justiceleague-tracker
-    - echo Build started on `date`
-    - mvn install
+      - echo Build started on `date`
+      - mvn install
+  post_build:
+    commands:
+      - echo Build completed on `date`
 artifacts:
   files:
   - target/*.jar
